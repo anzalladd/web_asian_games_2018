@@ -1,0 +1,304 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+.isi{
+    background-color: #e5e7ea;
+    width: 100%;
+    height: 1080px;
+}
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #47c9af;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu ul {
+  background: #ffffff;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 100px;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #47c9af;
+}
+
+.logoBody{
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+li a{
+    position: relative;
+    left: 150px;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+}
+.search_bar{
+    position: relative;
+    left: 8PX;
+    
+}
+#cssmenu input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 10px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 17px;
+  color:black;
+}
+::placeholder { 
+    color:black;
+    opacity: 0.5; 
+}
+
+#search_nav{
+    width: 35px;
+    float: right;
+    position: relative;
+    margin-top: 8px;
+    right: 10px;
+}
+#gambar_1{
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 22px;
+
+}
+#china{
+    text-align: left;
+    margin-left: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+#gambar_1:hover{
+-ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    
+    
+}
+.content_1{
+    width: 80%;
+    
+    
+}
+.jam{
+    color: rgb(49, 46, 46);
+    margin-left: 22px;
+    margin-top: 80px;
+}
+.garis{
+    width: 30%;
+    float: left;
+    margin-top: -8px;
+    margin-left: 20px;
+    border-style: solid;
+}
+#gambar_2{
+    width: 30%;
+    margin:auto;
+    position: relative;
+    top: 15px;
+    right: 452px;
+    
+
+}
+.content_2{
+    width: 80%;  
+}
+#gambar_2:hover{
+-ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    
+    
+
+}
+#item{
+    text-align: left;
+    margin-left: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+#tulisan_1{
+    margin: auto;
+    position: relative;
+    bottom: 830px;
+    margin-top: 10px;
+}
+#gede{
+    width: 1000px;
+    height: 720px;
+    position: relative;
+    margin: auto;
+    bottom: 770px;
+    left: 500px;
+}
+#gede:hover{
+ ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);    
+}
+#tulis{
+     position: relative;
+    margin: auto;
+    bottom: 800px;
+    right: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+body {
+	font-family: 'Lato', Arial, sans-serif;
+	color: #989c9b;
+}
+
+.container > header {
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+}
+
+.container > header h1 {
+  font-weight: 600;
+	font-size: 3em;
+	margin: 0;
+}
+
+.wrapper {
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+	width: 90%;
+	max-width: 2000px;
+	overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+
+th {
+    background-color: #326295;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+
+td, th {
+    padding: 1em 1.5em;
+    text-align: left;
+}
+
+tbody th {
+	background-color: #2ea879;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+tbody tr:hover {
+    background-color: rgba(50,98,149,.3);
+}
+
+td.rank {
+	text-transform: capitalize;
+}
+#judull{
+    color: black;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgba(24, 132, 165, 0.959);
+   color: white;
+   text-align: center;
+}
