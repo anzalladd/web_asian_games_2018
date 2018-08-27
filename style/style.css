@@ -302,3 +302,37 @@ td.rank {
    color: white;
    text-align: center;
 }
+#indonesia{
+    position: relative;
+    bottom: 1520px;
+    z-index: 11;
+    font-size: 30px;
+    margin-left: 1550px;
+    color: black;
+}
+#indonesia{
+    position: relative;
+    bottom: 1520px;
+    z-index: 11;
+    font-size: 30px;
+    margin-left: 1550px;
+    color: black;
+}
+#isi_isi{
+    position: relative;
+    bottom: 1520px;
+    z-index: 11;
+    font-size: 30px;
+    margin-left: 1550px;
+    color: black;
+}
+#isi_isio{
+    position: relative;
+    bottom: 1520px;
+    z-index: 11;
+    font-size: 30px;
+    margin-left: 1550px;
+    color:lightcoral;
+    float: right;
+    margin-right: 10px;
+}
